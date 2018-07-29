@@ -1,0 +1,35 @@
+.logged-in-user-header{
+
+}
+
+
+
+#myscroll::-webkit-scrollbar {
+    width: 6px !important;
+    height: 6px !important; 
+}
+
+#myscroll::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#myscroll::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.grey{
+	background-color: #eeeeee;
+    padding: 10px 16px;
+}
+.right-menu{
+	
+}
+.rm-padding{
+	padding: 0px !important;
+}
+
+.list{
+	overflow: hidden;
+	overflow-y: scroll;
+	height: 100vh;
+}
