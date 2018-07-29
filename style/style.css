@@ -2,7 +2,12 @@
 
 }
 
-
+html,body{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  
+}
 
 #myscroll::-webkit-scrollbar {
     width: 6px !important;
@@ -22,14 +27,62 @@
     padding: 10px 16px;
 }
 .right-menu{
-	
+
 }
 .rm-padding{
 	padding: 0px !important;
 }
+.left-menu{
+	width: 100%;
+    z-index: 1;
+    position: relative;
+    display: block;
+    transition: 0.4s ease;
+}
 
+.page{
+	padding: 0 !important;
+    height: 100%;
+}
+
+.profile_bar {
+    height: 20%;
+    background-color: rgb(44,44,44);
+}
+
+.scroll {
+    overflow-y: scroll;
+}
+.profile_header {
+    padding: 0 2vw;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.profile_pic {
+    height: 35%;
+    background-color: rgb(34,34,34);
+    overflow: hidden;
+}
+
+.profile {
+    width: 100%;
+    z-index: 2;
+    position: relative;
+    top: -100%;
+    left: -100%;
+    -webkit-transition: left 0.3s ease;
+    transition: left 0.3s ease;
+}
 .list{
 	overflow: hidden;
 	overflow-y: scroll;
 	height: 100vh;
+}
+
+.list > .row {
+	padding: 9px;
+    transform: 0.3s;
+    box-shadow: inset -4px 32px 36px #f3f2f2;
 }
